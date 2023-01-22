@@ -1,11 +1,11 @@
 const MiNombre = "Diego";
 const MiEdad  = 24;
 let SoyDesarrolador = true;
-const fecha_nacimiento = new Date("August 10 1998")
+const fecha_nacimiento = new Date(1998, 7, 10)
 const libro = {
     titulo: "Guia del autoestopista galactico",
     autor: "Douglas Adams",
-    fecha: "12 de Octubre, 1979 " ,
+    fecha: new Date(1979, 9, 12) ,
     url: "https://es.wikipedia.org/wiki/Gu%C3%ADa_del_autoestopista_gal%C3%A1ctico_(libro)",
 }
 
